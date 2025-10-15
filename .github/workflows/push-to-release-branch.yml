@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - push-to-release-branch
     paths:
       - 'action.yml'
       - 'index.js'
